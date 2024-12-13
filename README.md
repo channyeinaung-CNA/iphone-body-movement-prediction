@@ -58,9 +58,11 @@ project-repository/
 │   ├── 2024-12-10_22-37-46_Data/
 │   │   ├── position_data.csv
 │   │   ├── labeled_position_data.csv
-├── notebooks/        # Jupyter notebooks for processing and analysis
-│   ├── overlay_gps_map.ipynb
+├── processed-data/                  # For cleaned and preprocessed data 
+│   ├── feature_analysis_and_preparation.ipynb
 │   ├── label_data_with_gps.ipynb
+│   ├── overlay_gps_map.ipynb
+│   └── process_features_for_model.ipynb
 ├── model-training/   # Machine learning training scripts (to be implemented)
 ├── deployment/       # Real-time prediction scripts (to be implemented)
 ├── README.md         # Project documentation
